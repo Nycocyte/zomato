@@ -1,0 +1,106 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+  width:100%;
+  height:45rem;
+  background-image: radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(26, 24, 24, 0.374) 1.42%, rgba(28, 26, 26, 0.0) 50.8%, rgba(13, 13, 15, 0)00%), linear-gradient(98.24deg, #191717 14.75%, rgba(17, 17, 19, 0.48)), url(Biryani-1-1024x576.webp);
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+}
+
+form{
+  position: absolute;
+  width:28rem;
+  height:43rem;
+  color:whitesmoke;
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  background-color: rgba(11, 11, 11, 0.582);
+  border-radius: 9px;
+  border: 1px solid rgba(15, 13, 13, 0.125);
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+h3{
+  margin-left: 10rem;
+  font-size: 30px;
+}
+
+input[type=text], input[type=password]{
+  width: 100%;
+  margin:0px 0;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #DC143C;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headingsContainer{
+  text-align: left;
+}
+
+.headingsContainer p{
+  color: gray;
+}
+.mainContainer{
+  padding: 16px;
+}
+
+
+.subcontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subcontainer a{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+  float: right;
+  color: whitesmoke;
+  padding-top: 16px;
+}
+
+.forgotpsd a{
+  color: rgb(74, 146, 235);
+}
+
+.forgotpsd a:link{
+  text-decoration: none;
+}
+
+.register{
+  color: white;
+  text-align: center;
+}
+
+.register a{
+  color: rgb(74, 146, 235);
+}
+
+.register a:link{
+  text-decoration: none;
+}
+
+
+
